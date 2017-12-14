@@ -37,7 +37,8 @@ words = {
         'pinch',
         'pocket',
         'mono',
-        'slot'
+        'slot',
+        'flake'
     ],
 
     nHolds: [
@@ -50,7 +51,8 @@ words = {
         'pinches',
         'pockets',
         'monos',
-        'slots'
+        'slots',
+        'flakes'
     ],
 
     nMove: [
@@ -64,12 +66,12 @@ words = {
         'reach',
         'drop-knee',
         'mantel'
-    ]
+    ],
 
     vStart: [
         'establish',
         'start',
-    ]
+    ],
 
     vDo: [
         'make',
@@ -130,7 +132,8 @@ words = {
         'spicy',
         'core-intensive',
         'reachy',
-        'powerful'
+        'powerful',
+        'strenuous'
     ],
 
     holdAdj: [
