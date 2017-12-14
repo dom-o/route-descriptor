@@ -1,16 +1,20 @@
- function getDescriptionTemplate() 
- {
+function randomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
+/*generateTemplate() {
+    //beginning
+    //start info
+    //2-5 sentences
+    template = '';
     
- }
- 
- getSentenceTemplate()
- {
-    return 
- }
- 
- 
- function generateDescription(template) {
-    template = template.split(' ');
+    
+    
+}*/
+
+
+function generateDescription() {
+    /*template = template.split(' ');
     for(x in template) {
         if(words.hasOwnProperty(template[x])) {
             result += getRandomWord(template[x]);
@@ -20,7 +24,12 @@
         }
         result += ' ';
     }
-    return result;
- }
+    return result;*/
+    return 'aayyy';
+}
+ 
+document.getElementById('descriptor-gen').onclick = function() {
+    document.getElementById('descriptor-space').textContent = generateDescription();
+};
  
  
