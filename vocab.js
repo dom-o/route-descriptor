@@ -164,6 +164,7 @@ words = {
         'half-pad',
         'quarter-pad',
         'two-finger',
-        'three-finger'
+        'three-finger',
+        'enormous'
     ]
 }
