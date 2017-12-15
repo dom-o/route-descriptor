@@ -2,7 +2,8 @@ patterns = {
     //Beginning quantifiers
     interjections: [
         'wIntensifier climbAdj',
-        'climbAdj nClimb'
+        'climbAdj nClimb',
+        'wIntensifier climbAdj nClimb'
     ],
 
     //Start descriptions
