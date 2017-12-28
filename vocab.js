@@ -71,6 +71,7 @@ words = {
     vStart: [
         'establish',
         'start',
+        'begin'
     ],
 
     vDo: [
@@ -166,5 +167,12 @@ words = {
         'two-finger',
         'three-finger',
         'enormous'
+    ],
+    
+    wPos: [
+        'high',
+        'low',
+        'crouched',
+        
     ]
 }
