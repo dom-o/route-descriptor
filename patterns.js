@@ -1,8 +1,8 @@
 patterns = {
     big: {
+        midE: ['moveDesc 0.3 [ conjunction moveDesc ]'],
         startNE: ['0.5 interjection'],
-        midE: ['moveDesc 0.3 continuation 0.3 [ conjunction 0.3 moveDesc 0.3 continuation ]'],
-        startE: ['startDesc 0.2 [ conjunction moveDesc 0.3 continuation ]']
+        startE: ['startDesc 0.2 [ conjunction moveDesc ]']
     },
     
     little: {
@@ -14,20 +14,15 @@ patterns = {
 
         //Start descriptions
         startDesc: [
-            'vStart 0.4 wPos 0.6 [ on 0.3 holdAdj nHold ] in nFeature',
+            'vStart 0.2 wPos 0.6 [ on a 0.3 holdAdj nHold ] in nFeature',
         ],
 
         //Middle descriptions
         moveDesc: [
-            'vDo a moveAdj nMove',
-            'vMove on nHolds',
-            'vMove to a nHold',
-            'vHold a 0.5 holdAdj nHold',
-        ],
-        continuation: [
-            'into a 0.5 holdAdj nHold',
-            'past a 0.5 holdAdj nHold',
-            'through 0.5 holdAdj nHolds'
+            'vDo a moveAdj nMove ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
+            'vMove ? 2 [ on ] [ through ] 0.5 holdAdj nHolds ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
+            'vMove ? 2 [ to ] [ past ] a nHold ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
+            'vHold a 0.5 holdAdj nHold'
         ],
         conjunction:[
             'and',

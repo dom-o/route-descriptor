@@ -8,7 +8,10 @@ function getRandomWord(type, source) {
 }
 
 function addToTemplate(keyword, source) {
-    if(source.hasOwnProperty(keyword)) {
+    if(keyword == '[' || keyword == ']') {
+        return '';
+    }
+    else if(source.hasOwnProperty(keyword)) {
         return getRandomWord(keyword, source);
     }
     else {
@@ -16,41 +19,54 @@ function addToTemplate(keyword, source) {
     }
 }
 
+function evalProbTest(template, x) {
+    rand = Math.random();
+    if(rand >= parseFloat(template[x])) { //fail the probability test
+        if(template[x+1] == '[') {
+            while(template[x] != ']') { //skip past all the failed probability tokens
+                x++;
+            }
+        }
+        else { x++; }
+    }
+    return x;
+}
+
 function expandTemplate(template, source) {
     result = '';
     i=0;
+    console.log(template);
     template = template.split(' ');
     for(x=0; x<template.length; x++) {
-        /*if(template[x] == '?') {
-            x++;
-            console.log(template[x]);
-            numOptions = parseInt(template[x]);
+        if(template[x] == '?') {
+            i=0;
+            numOptions = parseInt(template[x+1]);
             selected = randomInt(numOptions);
+
             while(i<numOptions) {
-                if(i==selected) {
-                    while(template[x] != '[') { x++; }
-                    while(template[x] != ']') {
-                        x++;
-                        result += addToTemplate(template[x], source);
+                x++;
+                if(template[x] == '[') {
+                    if(i == selected) {
+                        while(template[x] != ']') {
+                            x++;
+                            if(!isNaN(parseFloat(template[x]))) { //if we get a probability token
+                                x=evalProbTest(template, x);
+                            }
+                            else {
+                                result += addToTemplate(template[x], source) + ' ';
+                            }
+                        }
                     }
+                    else {
+                        while(template[x] != ']') { x++; }
+                    }
+                    i++;
                 }
-                if(template[x] == '[') {i++;}
-            }
-            //while(template[x] != ']') { x++; }
-        }*/
+            }            
+        }
         if(!isNaN(parseFloat(template[x]))) //if we get a probability token
         {
-            rand = Math.random();
-            if(rand >= parseFloat(template[x])) { //fail the probability test
-                if(template[x+1] == '[') {
-                    while(template[x] != ']') { //skip past all the failed probability tokens
-                        x++;
-                    }
-                }
-            }
-        }
-        else if(template[x] == '[' || template[x] == ']') {
-            //do nothing
+            x=evalProbTest(template, x);
         }
         else {
             result += addToTemplate(template[x], source);
@@ -66,7 +82,6 @@ function generateTemplate() {
     //2-5 sentences
     template = '';
     numSentences = randomInt(1)+1;
-    console.log(numSentences);
     template += patterns.big.startNE[randomInt(patterns.big.startNE.length)] + ' ';
     template += patterns.big.startE[randomInt(patterns.big.startE.length)] + ' ';
     
@@ -74,7 +89,6 @@ function generateTemplate() {
         template += patterns.big.midE[randomInt(patterns.big.midE.length)] + ' ';
     }
     
-    console.log(template);
     return template;
 }
 
