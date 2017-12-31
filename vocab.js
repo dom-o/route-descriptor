@@ -1,9 +1,9 @@
 words = {
     wIntensifier: [
         'super',
-        'highly',
-        'insanely',
-        'ultra',
+        'very',
+        'hella',
+        'such a',
     ],
 
     nClimb: [
@@ -25,6 +25,7 @@ words = {
         'cave',
         'roof',
         'pit',
+        
     ],
 
     nHold: [
@@ -61,11 +62,23 @@ words = {
         'dyno',
         'cross',
         'high-step',
-        'pull',
         'lock-off',
         'reach',
         'drop-knee',
-        'mantel'
+        'mantel',
+        'invert',
+        'foot jam',
+        'figure four',
+        'drive-by',
+        'windmill',
+        'gaston',
+        'heel hook',
+        'toe hook',
+        'heel-toe cam',
+        'hand jam',
+        'ring lock',
+        'chicken wing',
+        'double clutch',
     ],
 
     vStart: [
@@ -88,6 +101,11 @@ words = {
         'burl',
         'throw',
         'pull',
+        'surf out',
+        'slap',
+        'grab',
+        'bear down',
+        'campus'
     ],
 
     vHold: [
@@ -96,6 +114,7 @@ words = {
         'pinch',
         'control',
         'dominate',
+        'slap'
     ],
 
     climbAdj: [
@@ -117,9 +136,15 @@ words = {
         'cruxy',
         'sustained',
         'deathly',
-        'gym-style',
+        'gym-y',
         'beta-intensive',
-        'spicy'
+        'spicy',
+        'stylistic',
+        'imposing',
+        'steep',
+        'slabby',
+        'gonzo',
+        'iconic'
     ],
 
     moveAdj: [
@@ -134,7 +159,9 @@ words = {
         'core-intensive',
         'reachy',
         'powerful',
-        'strenuous'
+        'strenuous',
+        'flashy',
+        'desparate'
     ],
 
     holdAdj: [
@@ -166,13 +193,20 @@ words = {
         'quarter-pad',
         'two-finger',
         'three-finger',
-        'enormous'
+        'enormous',
+        'hellish',
+        'sweet',
+        'great',
+        'beautiful',
+        'gorgeous',
+        'prime'
     ],
     
     wPos: [
         'high',
         'low',
         'crouched',
-        
+        'standing',
+        'sitting'
     ]
 }
