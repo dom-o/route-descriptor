@@ -1,8 +1,8 @@
 patterns = {
     big: {
-        midE: ['moveDesc 0.3 [ conjunction moveDesc ]'],
-        startNE: ['0.5 interjection'],
-        startE: ['startDesc 0.2 [ conjunction moveDesc ]']
+        midE: ['moveDesc 0.3 [ ? 2 [ , conjunction ] [ ; ] moveDesc ] .'],
+        startNE: ['0.5 [ interjection ? 2 [ . ] [ ! ] ]'],
+        startE: ['startDesc 0.2 [ ? 2 [ , conjunction ] [ ; ] moveDesc ] .']
     },
     
     little: {
@@ -19,10 +19,11 @@ patterns = {
 
         //Middle descriptions
         moveDesc: [
+            'vClimbFeature ? 3 [ up ] [ through ] 0.5 climbAdj nClimbFeature',
             'vDo a moveAdj nMove ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
             'vMove ? 2 [ on ] [ through ] 0.5 holdAdj nHolds ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
-            'vMove ? 2 [ to ] [ past ] a nHold ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
-            'vHold a 0.5 holdAdj nHold'
+            'vMove ? 2 [ to ] [ past ] a nHold ? 2 [ into a 0.5 holdAdj nHold ] [ into 0.5 holdAdj nHolds ]',
+            'vHold ? 2 [ a 0.5 holdAdj nHold ] [ 0.5 holdAdj nHolds ]'
         ],
         conjunction:[
             'and',

@@ -3,7 +3,6 @@ words = {
         'super',
         'very',
         'hella',
-        'such a',
     ],
 
     nClimb: [
@@ -27,6 +26,25 @@ words = {
         'pit',
         
     ],
+    
+    nClimbFeature: [
+        'prow',
+        'arete',
+        'face',
+        'slab',
+        'bulge',
+        'dihedral',
+        'chimney',
+        'seam',
+        
+    ],
+    
+    vClimbFeature: [
+        'quest',
+        'ascend',
+        'climb',
+        
+    ],
 
     nHold: [
         'sloper',
@@ -39,10 +57,12 @@ words = {
         'pocket',
         'mono',
         'slot',
-        'flake'
+        'flake',
+        'cobble'
     ],
 
     nHolds: [
+        'cobbles',
         'slopers',
         'jugs',
         'crimps',
@@ -103,18 +123,24 @@ words = {
         'pull',
         'surf out',
         'slap',
-        'grab',
         'bear down',
-        'campus'
+        'campus',
+        'float',
+        'glide',
+        'cruise',
+        'grovel'
     ],
 
     vHold: [
+        'grab',
         'crimp',
         'squeeze',
         'pinch',
         'control',
         'dominate',
-        'slap'
+        'slap',
+        'lock down',
+        'endure'
     ],
 
     climbAdj: [
@@ -144,7 +170,10 @@ words = {
         'steep',
         'slabby',
         'gonzo',
-        'iconic'
+        'iconic',
+        'proud',
+        'humble',
+        'garbage'
     ],
 
     moveAdj: [
@@ -161,7 +190,13 @@ words = {
         'powerful',
         'strenuous',
         'flashy',
-        'desparate'
+        'desperate',
+        'hefty',
+        'slick',
+        'bonebending',
+        'risky',
+        'snappy',
+        'wide'
     ],
 
     holdAdj: [
@@ -179,6 +214,8 @@ words = {
         'sticky',
         'wide',
         'deep',
+        'shallow',
+        'narrow',
         'thick',
         'thin',
         'wavy',
@@ -199,7 +236,11 @@ words = {
         'great',
         'beautiful',
         'gorgeous',
-        'prime'
+        'prime',
+        'garbage',
+        'fragile',
+        'tweaky',
+        
     ],
     
     wPos: [
@@ -207,6 +248,7 @@ words = {
         'low',
         'crouched',
         'standing',
-        'sitting'
+        'sitting',
+        'inverted'
     ]
 }
