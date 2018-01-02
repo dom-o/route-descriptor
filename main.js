@@ -2,6 +2,28 @@ function randomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
+//taken from https://github.com/sebpearce/bullshit/blob/gh-pages/main.js
+function replaceAWithAn(sentence) {
+    return sentence.replace(/(^|\W)([Aa]) ([aeiou])/g, '$1$2n $3');
+}
+
+//taken from https://github.com/sebpearce/bullshit/blob/gh-pages/main.js
+function removeSpacesBeforePunctuation(sentence) {
+    // remove spaces before commas/periods/semicolons
+    return sentence.replace(/ +([!,\.;\?])/g, '$1');
+}
+
+//taken from https://github.com/sebpearce/bullshit/blob/gh-pages/main.js
+function capitalizeFirstLetter(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+function capitalizeLettersAfterPunctuation(sentence) {
+    return sentence.replace(/[.!] +[a-z]/g, function(match) {
+        return match.toUpperCase()
+    });
+}
+
 function getRandomWord(type, source) {
     var rand = randomInt(source[type].length);
     return source[type][rand];
@@ -44,7 +66,6 @@ function evalOrBlock(template, source, y) {
     var selected = randomInt(numOptions);
     var keywords = '';
     
-    console.log('evaluating or block');
     while(i<numOptions) {
         x++;
         if(template[x] == '[') {
@@ -53,10 +74,8 @@ function evalOrBlock(template, source, y) {
                 while(bracketCount > 0) {
                     x++;
                     if(template[x] == '?') {
-                        console.log('encountered nested ?');
                         orResult = evalOrBlock(template, source, x);
                         
-                        console.log(orResult);
                         keywords += orResult.keywords + ' ';
                         x = orResult.x;
                     }
@@ -131,6 +150,12 @@ function generateTemplate() {
 function generateDescription(template) {
     template = expandTemplate(template, patterns.little);
     template = expandTemplate(template, words);
+    
+    template = replaceAWithAn(template);
+    template = template.trim();
+    template = removeSpacesBeforePunctuation(template);
+    template = capitalizeLettersAfterPunctuation(template);
+    template = capitalizeFirstLetter(template);
     return template;
 }
  
