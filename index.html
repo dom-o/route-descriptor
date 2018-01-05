@@ -1,13 +1,30 @@
  <!DOCTYPE html>
 <html>
 <head>
+<style>
+    body {
+        background: #333;
+        color: #eee;
+        font-family: sans-serif;
+        padding: 0 10px;
+        margin: 40px auto;
+        line-height: 1.6;
+        max-width: 650px;
+    }
+    h1 {
+        line-height: 1;
+    }
+</style>
 </head>
-<body style="background: #1a1a1a">
-    <p style="color: #666">
-      Generates plausible sounding route/problem descriptions.
-    </p>
-    <button id="descriptor-gen">get 'em</button>
-    <div id="descriptor-space" style="color: #666">aaayyy</div>
+<body>
+    <header>
+        <h1>route-descriptor</h1>
+        <p>Generates plausible sounding route/problem descriptions.</p>
+    </header>
+    
+    <button id="descriptor-gen">generate</button>
+    
+    <blockquote id="descriptor-space"></blockquote>
     
     <script src="main.js"></script>
     <script src="vocab.js"></script>
