@@ -47,6 +47,47 @@ words = {
         'climb',
         
     ],
+    
+    climberAdj: [
+        'short',
+        'tall',
+        'young',
+        'old',
+        'weak',
+        'strong',
+        'ugly'
+    ],
+    
+    nGrade: [
+        'V1',
+        'V2',
+        'V3',
+        'V4',
+        'V5',
+        'V6',
+        'V7',
+        'V8',
+        'V9',
+        'V10',
+        'V11',
+        'V12',
+        'V13',
+        'V14',
+        'V15',
+        'V16',
+        '5.4',
+        '5.5',
+        '5.6',
+        '5.7',
+        '5.8',
+        '5.9',
+        '5.10',
+        '5.11',
+        '5.12',
+        '5.13',
+        '5.14',
+        '5.15'
+    ],
 
     nHold: [
         'sloper',
@@ -108,11 +149,18 @@ words = {
         'start',
         'begin'
     ],
+    
+    vFinish:[
+        'end',
+        'finish'
+    ],
 
     vDo: [
         'make',
         'pull',
         'do',
+        'hit',
+        'pull off'
     ],
     
     vMaintain: [
@@ -135,6 +183,9 @@ words = {
         'ignite the core',
         'pop the cork',
         'stay tight',
+        'stomp the gas',
+        'mash',
+        ''
     ],
 
     vMove: [
@@ -152,7 +203,8 @@ words = {
         'float',
         'glide',
         'cruise',
-        'grovel'
+        'grovel',
+        'mash'
     ],
 
     vHold: [
@@ -166,6 +218,7 @@ words = {
         'lock down',
         'endure',
         'reel in',
+        'hit'
     ],
 
     climbAdj: [
