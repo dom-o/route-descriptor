@@ -24,7 +24,7 @@ patterns = {
             'vMove ? 2 [ on ] [ through ] 0.5 holdAdj nHolds ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
             'vMove ? 2 [ to ] [ past ] a nHold ? 2 [ into a 0.5 holdAdj nHold ] [ into 0.5 holdAdj nHolds ]',
             'vHold ? 2 [ a 0.5 holdAdj nHold ] [ 0.5 holdAdj nHolds ]',
-
+            'vMaintain when you ? 3 [ find ] [ get to ] [ reach ] the 0.5 holdAdj ? 2 [ nHolds ] [ nHold ]'
         ],
         conjunction:[
             'and',

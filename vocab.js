@@ -133,6 +133,8 @@ words = {
         'bite down',
         'fire the jets',
         'ignite the core',
+        'pop the cork',
+        'stay tight',
     ],
 
     vMove: [
