@@ -325,7 +325,8 @@ words = {
         'fragile',
         'tweaky',
         '\"oh shit\"',
-        
+        '\"thank God\"',
+        '\"hell no\"'
     ],
     
     wPos: [
