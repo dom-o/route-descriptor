@@ -3,6 +3,7 @@ words = {
         'super',
         'very',
         'hella',
+        'totally'
     ],
 
     nClimb: [
@@ -45,7 +46,7 @@ words = {
         'quest',
         'ascend',
         'climb',
-        
+        'move'
     ],
     
     climberAdj: [
@@ -101,7 +102,8 @@ words = {
         'mono',
         'slot',
         'flake',
-        'cobble'
+        'cobble',
+        'horn'
     ],
 
     nHolds: [
@@ -116,7 +118,7 @@ words = {
         'pockets',
         'monos',
         'slots',
-        'flakes'
+        'flakes',
     ],
 
     nMove: [
@@ -185,7 +187,6 @@ words = {
         'stay tight',
         'stomp the gas',
         'mash',
-        ''
     ],
 
     vMove: [
@@ -204,7 +205,6 @@ words = {
         'glide',
         'cruise',
         'grovel',
-        'mash'
     ],
 
     vHold: [
@@ -218,7 +218,8 @@ words = {
         'lock down',
         'endure',
         'reel in',
-        'hit'
+        'hit',
+        'mash'
     ],
 
     climbAdj: [
