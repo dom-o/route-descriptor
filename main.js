@@ -4,7 +4,7 @@ function randomInt(max) {
 
 //taken from https://github.com/sebpearce/bullshit/blob/gh-pages/main.js
 function replaceAWithAn(sentence) {
-    return sentence.replace(/(^|\W)([Aa]) ["']?([aeiou])/g, '$1$2n $3');
+    return sentence.replace(/(^|\W)([Aa]) (["']?[aeiou])/g, '$1$2n $3');
 }
 
 //taken from https://github.com/sebpearce/bullshit/blob/gh-pages/main.js
@@ -108,7 +108,7 @@ function evalOrBlock(template, source, y) {
 function expandTemplate(template, source) {
     var x, orResult;
     var result = '';
-    console.log(template);
+    //console.log(template);
     
     template = template.split(' ');
     for(x=0; x<template.length; x++) {
