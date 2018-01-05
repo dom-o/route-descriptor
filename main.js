@@ -4,7 +4,7 @@ function randomInt(max) {
 
 //taken from https://github.com/sebpearce/bullshit/blob/gh-pages/main.js
 function replaceAWithAn(sentence) {
-    return sentence.replace(/(^|\W)([Aa]) ([aeiou])/g, '$1$2n $3');
+    return sentence.replace(/(^|\W)([Aa]) ["']?([aeiou])/g, '$1$2n $3');
 }
 
 //taken from https://github.com/sebpearce/bullshit/blob/gh-pages/main.js
@@ -142,6 +142,8 @@ function generateTemplate() {
     for(i=0; i<numSentences; i++) {
         template += patterns.big.midE[randomInt(patterns.big.midE.length)] + ' ';
     }
+    
+    template += patterns.big.finishNE[randomInt(patterns.big.finishNE.length)] + ' ';
     
     return template;
 }
