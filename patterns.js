@@ -19,11 +19,12 @@ patterns = {
 
         //Middle descriptions
         moveDesc: [
-            'vClimbFeature ? 3 [ up ] [ through ] 0.5 climbAdj nClimbFeature',
-            'vDo a moveAdj nMove ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
+            'vClimbFeature ? 2 [ up ] [ through ] 0.5 climbAdj nClimbFeature',
+            '? 2 [ vDo ] [ vMaintain for ] a moveAdj nMove ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
             'vMove ? 2 [ on ] [ through ] 0.5 holdAdj nHolds ? 2 [ to a 0.5 holdAdj nHold ] [ to 0.5 holdAdj nHolds ]',
             'vMove ? 2 [ to ] [ past ] a nHold ? 2 [ into a 0.5 holdAdj nHold ] [ into 0.5 holdAdj nHolds ]',
-            'vHold ? 2 [ a 0.5 holdAdj nHold ] [ 0.5 holdAdj nHolds ]'
+            'vHold ? 2 [ a 0.5 holdAdj nHold ] [ 0.5 holdAdj nHolds ]',
+
         ],
         conjunction:[
             'and',

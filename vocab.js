@@ -13,7 +13,9 @@ words = {
         'testpiece',
         'rig',
         'bloc',
-        'highball'
+        'highball',
+        'line',
+        'rock climb'
     ],
 
     nFeature: [
@@ -36,7 +38,7 @@ words = {
         'dihedral',
         'chimney',
         'seam',
-        
+        'ramp'
     ],
     
     vClimbFeature: [
@@ -112,6 +114,26 @@ words = {
         'pull',
         'do',
     ],
+    
+    vMaintain: [
+        'stay sharp',
+        'look alive',
+        'get nutty',
+        'turn the oven on',
+        'pull the stops',
+        'pump the brakes',
+        'stoke the fire',
+        'bang your chest',
+        'keep cool',
+        'keep calm',
+        'keep your wits about you',
+        'don\'t panic',
+        'keep it together',
+        'hold on',
+        'bite down',
+        'fire the jets',
+        'ignite the core',
+    ],
 
     vMove: [
         'move',
@@ -140,7 +162,8 @@ words = {
         'dominate',
         'slap',
         'lock down',
-        'endure'
+        'endure',
+        'reel in',
     ],
 
     climbAdj: [
@@ -161,7 +184,7 @@ words = {
         'short',
         'cruxy',
         'sustained',
-        'deathly',
+        'death',
         'gym-y',
         'beta-intensive',
         'spicy',
@@ -173,7 +196,12 @@ words = {
         'iconic',
         'proud',
         'humble',
-        'garbage'
+        'garbage',
+        'humble',
+        'futuristic',
+        'aesthetic',
+        'beautiful',
+        'gorgeous'
     ],
 
     moveAdj: [
@@ -196,7 +224,8 @@ words = {
         'bonebending',
         'risky',
         'snappy',
-        'wide'
+        'wide',
+        'steezy'
     ],
 
     holdAdj: [
@@ -240,6 +269,7 @@ words = {
         'garbage',
         'fragile',
         'tweaky',
+        '\"oh shit\"',
         
     ],
     
