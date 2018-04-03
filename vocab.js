@@ -56,7 +56,6 @@ words = {
         'old',
         'weak',
         'strong',
-        'ugly'
     ],
     
     nGrade: [
@@ -169,11 +168,10 @@ words = {
         'stay sharp',
         'look alive',
         'get nutty',
-        'turn the oven on',
+        'get buck',
         'pull the stops',
         'pump the brakes',
         'stoke the fire',
-        'bang your chest',
         'keep cool',
         'keep calm',
         'keep your wits about you',
@@ -217,7 +215,6 @@ words = {
         'slap',
         'lock down',
         'endure',
-        'reel in',
         'hit',
         'mash'
     ],
