@@ -11,8 +11,6 @@ patterns = {
         interjection: [
             'wIntensifier climbAdj',
             '0.2 wIntensifier climbAdj nClimb',
-            //'? 2 [ definitely not ] [ not at all ] ? 2 [ climbAdj ] [ nGrade ]',
-            //'? 3 [ harder ] [ easier ] [ nGrade ] if you\'re climberAdj'
         ],
 
         //Start descriptions
