@@ -56,7 +56,6 @@ words = {
         'old',
         'weak',
         'strong',
-        'ugly'
     ],
     
     nGrade: [
