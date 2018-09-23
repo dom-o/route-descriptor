@@ -254,7 +254,8 @@ words = {
         'futuristic',
         'aesthetic',
         'beautiful',
-        'gorgeous'
+        'gorgeous',
+        'new-age',
     ],
 
     moveAdj: [
