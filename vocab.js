@@ -39,7 +39,8 @@ words = {
         'dihedral',
         'chimney',
         'seam',
-        'ramp'
+        'ramp',
+        'feature',
     ],
     
     vClimbFeature: [
