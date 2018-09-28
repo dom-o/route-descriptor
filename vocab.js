@@ -280,7 +280,8 @@ words = {
         'risky',
         'snappy',
         'wide',
-        'steezy'
+        'steezy',
+        'next-gen',
     ],
 
     holdAdj: [
