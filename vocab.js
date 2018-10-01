@@ -103,7 +103,8 @@ words = {
         'slot',
         'flake',
         'cobble',
-        'horn'
+        'horn',
+        'dish',
     ],
 
     nHolds: [
@@ -119,6 +120,7 @@ words = {
         'monos',
         'slots',
         'flakes',
+        'dishes',
     ],
 
     nMove: [
