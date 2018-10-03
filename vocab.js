@@ -329,7 +329,8 @@ words = {
         'tweaky',
         '\"oh shit\"',
         '\"thank God\"',
-        '\"hell no\"'
+        '\"hell no\"',
+        'half-moon',
     ],
     
     wPos: [
