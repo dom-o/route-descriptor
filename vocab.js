@@ -206,7 +206,6 @@ words = {
         'cruise',
         'grovel',
         'tiptoe',
-        
     ],
 
     vHold: [
