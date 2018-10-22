@@ -284,6 +284,7 @@ words = {
         'wide',
         'steezy',
         'next-gen',
+        'extreme'
     ],
 
     holdAdj: [
