@@ -292,6 +292,7 @@ words = {
         '\"thank God\"',
         '\"hell no\"',
         'half-moon',
+        'razor',
     ],
     
     wPos: [
