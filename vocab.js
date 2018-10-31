@@ -293,6 +293,7 @@ words = {
         '\"hell no\"',
         'half-moon',
         'razor',
+        'blunt',
     ],
     
     wPos: [
