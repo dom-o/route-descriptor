@@ -219,6 +219,7 @@ words = {
         'beautiful',
         'gorgeous',
         'new-age',
+        'wacky',
     ],
 
     moveAdj: [
