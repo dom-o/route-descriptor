@@ -304,6 +304,7 @@ words = {
         'crouched',
         'standing',
         'sitting',
-        'inverted'
+        'inverted',
+        'horizontal',
     ]
 }
