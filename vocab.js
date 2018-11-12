@@ -16,7 +16,8 @@ words = {
         'bloc',
         'highball',
         'line',
-        'rock climb'
+        'rock climb',
+        'climb',
     ],
 
     nFeature: [
