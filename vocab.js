@@ -108,6 +108,7 @@ words = {
         'ring lock',
         'chicken wing',
         'double clutch',
+        'throw',
     ],
 
     vStart: [
