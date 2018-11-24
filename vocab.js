@@ -174,6 +174,8 @@ words = {
         'cruise',
         'grovel',
         'tiptoe',
+        'slide',
+        'skate',
     ],
 
     vHold: [
