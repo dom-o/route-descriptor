@@ -41,6 +41,7 @@ words = {
         'seam',
         'ramp',
         'feature',
+        'corner',
     ],
     
     vClimbFeature: [
