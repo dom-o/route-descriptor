@@ -68,6 +68,7 @@ words = {
         'dish',
         'handle',
         'bulb',
+        'orb',
     ],
 
     nHolds: [
@@ -86,6 +87,7 @@ words = {
         'dishes',
         'handles',
         'bulbs',
+        'orbs',
     ],
 
     nMove: [
