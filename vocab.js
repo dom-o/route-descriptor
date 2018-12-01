@@ -3,7 +3,8 @@ words = {
         'super',
         'very',
         'hella',
-        'totally'
+        'totally',
+        'mucho',
     ],
 
     nClimb: [
