@@ -19,6 +19,7 @@ words = {
         'line',
         'rock climb',
         'climb',
+        'boulder',
     ],
 
     nFeature: [
