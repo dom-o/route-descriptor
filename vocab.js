@@ -20,6 +20,7 @@ words = {
         'rock climb',
         'climb',
         'boulder',
+        
     ],
 
     nFeature: [
@@ -71,6 +72,7 @@ words = {
         'handle',
         'bulb',
         'orb',
+        'disk',
     ],
 
     nHolds: [
