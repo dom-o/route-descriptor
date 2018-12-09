@@ -264,6 +264,7 @@ words = {
         'next-gen',
         'extreme',
         'power',
+        'tenuous',
     ],
 
     holdAdj: [
