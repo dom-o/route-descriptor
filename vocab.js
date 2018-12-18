@@ -268,6 +268,7 @@ words = {
         'extreme',
         'power',
         'tenuous',
+        'slow',
     ],
 
     holdAdj: [
