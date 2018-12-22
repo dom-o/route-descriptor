@@ -4,7 +4,6 @@ words = {
         'very',
         'hella',
         'totally',
-        'mucho',
     ],
 
     nClimb: [
