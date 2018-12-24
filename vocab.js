@@ -29,7 +29,8 @@ words = {
         'crack',
         'cave',
         'roof',
-        'pit',      
+        'pit',
+        'streak',
     ],
     
     nClimbFeature: [
