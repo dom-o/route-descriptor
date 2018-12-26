@@ -45,6 +45,7 @@ words = {
         'ramp',
         'feature',
         'corner',
+        'overhang',
     ],
     
     vClimbFeature: [
