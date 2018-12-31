@@ -234,7 +234,6 @@ words = {
         'proud',
         'humble',
         'garbage',
-        'humble',
         'futuristic',
         'aesthetic',
         'beautiful',
