@@ -75,6 +75,7 @@ words = {
         'orb',
         'disk',
         'incut',
+        'block',
     ],
 
     nHolds: [
@@ -96,6 +97,7 @@ words = {
         'orbs',
         'disks',
         'incuts',
+        'blocks',
     ],
 
     nMove: [
