@@ -126,6 +126,7 @@ words = {
         'throw',
         'lurch',
         'match',
+        'bump',
     ],
 
     vStart: [
