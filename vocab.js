@@ -274,6 +274,7 @@ words = {
         'power',
         'tenuous',
         'slow',
+        'unintuitive',
     ],
 
     holdAdj: [
