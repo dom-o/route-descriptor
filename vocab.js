@@ -245,6 +245,7 @@ words = {
         'wacky',
         'worthwhile',
         'cruiser',
+        'gnar',
     ],
 
     moveAdj: [
