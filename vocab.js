@@ -145,7 +145,8 @@ words = {
         'pull',
         'do',
         'hit',
-        'pull off'
+        'pull off',
+        'execute',
     ],
     
     vMaintain: [
