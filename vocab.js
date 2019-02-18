@@ -279,6 +279,7 @@ words = {
         'slow',
         'unintuitive',
         'easy',
+        'blind',
     ],
 
     holdAdj: [
