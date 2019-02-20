@@ -19,7 +19,7 @@ words = {
         'rock climb',
         'climb',
         'boulder',
-        
+        'problem',
     ],
 
     nFeature: [
