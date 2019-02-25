@@ -2,7 +2,8 @@ words = {
     wIntensifier: [
         'super',
         'very',
-        'hella',  
+        'extremely',
+        'highly',
         'totally',
     ],
 
