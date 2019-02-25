@@ -11,6 +11,7 @@ patterns = {
         interjection: [
             'wIntensifier climbAdj',
             '0.2 wIntensifier climbAdj nClimb',
+            'This nClimb is climbAdj',
         ],
 
         //Start descriptions
@@ -36,7 +37,7 @@ patterns = {
         //End descriptions.
         finishDesc: [
             '? 2 [ ? 2 [ 0.4 holdAdj nHolds guard ] [ a 0.4 holdAdj nHold guards ] ] [ a 0.4 moveAdj nMove guards ] the ? 3 [ chains ] [ topout ] [ finish ]',
-            '? 2 [ vMaintain ] [ vMove ] ? 3 [ to the chains ] [ for the 0.3 [ ? 2 [ climbAdj ] [ moveAdj ] ] top out ] [ through the 0.3 [ ? 2 [ climbAdj ] [ moveAdj ] ] finish ]',
+            'vMove ? 3 [ to the chains ] [ for the 0.3 [ ? 2 [ climbAdj ] [ moveAdj ] ] top out ] [ through the 0.3 [ ? 2 [ climbAdj ] [ moveAdj ] ] finish ]',
             'vFinish ? 2 [ with a 0.2 moveAdj nMove ] [ on 0.2 holdAdj nHolds ] 0.4 [ and top out ]'
         ]
     }
