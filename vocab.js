@@ -6,6 +6,7 @@ words = {
         'highly',
         'totally',
         'the most',
+        'all-encompassingly',
     ],
 
     nClimb: [
