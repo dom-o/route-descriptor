@@ -334,6 +334,7 @@ words = {
         'half-moon',
         'razor',
         'blunt',
+        'irregular',
     ],
     
     wPos: [
