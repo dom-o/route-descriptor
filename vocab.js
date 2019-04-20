@@ -6,7 +6,7 @@ words = {
         'highly',
         'totally',
         'the most',
-        'all-encompassingly',
+        'all-encompassingly'
     ],
 
     nClimb: [
@@ -335,6 +335,7 @@ words = {
         'razor',
         'blunt',
         'irregular',
+'shapely'
     ],
     
     wPos: [
