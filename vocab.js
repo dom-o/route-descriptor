@@ -5,7 +5,7 @@ words = {
         'extremely',
         'highly',
         'totally',
-        'the most',
+        'most',
         'all-encompassingly'
     ],
 
@@ -56,7 +56,8 @@ words = {
         'quest',
         'ascend',
         'climb',
-        'move'
+        'move',
+        'venture',
     ],
 
     nHold: [
