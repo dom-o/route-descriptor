@@ -286,6 +286,7 @@ words = {
         'easy',
         'blind',
         'improbable',
+        'quick',
     ],
 
     holdAdj: [
