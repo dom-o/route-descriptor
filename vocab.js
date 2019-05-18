@@ -81,6 +81,7 @@ words = {
         'disk',
         'incut',
         'block',
+        'divot'
     ],
 
     nHolds: [
