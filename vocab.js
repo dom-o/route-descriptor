@@ -176,6 +176,7 @@ words = {
         'stay tight',
         'stomp the gas',
         'mash',
+        'go ape',
     ],
 
     vMove: [
