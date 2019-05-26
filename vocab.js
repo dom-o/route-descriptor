@@ -198,6 +198,7 @@ words = {
         'tiptoe',
         'slide',
         'skate',
+'tech',
     ],
 
     vHold: [
