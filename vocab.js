@@ -255,7 +255,8 @@ words = {
         'worthwhile',
         'cruiser',
         'gnar',
-        'honorable'
+        'honorable',
+        'punchy',
     ],
 
     moveAdj: [
