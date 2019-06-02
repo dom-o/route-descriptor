@@ -341,7 +341,8 @@ words = {
         'razor',
         'blunt',
         'irregular',
-'shapely'
+        'shapely',
+        'fiddly',
     ],
     
     wPos: [
