@@ -198,7 +198,6 @@ words = {
         'tiptoe',
         'slide',
         'skate',
-'tech',
     ],
 
     vHold: [
@@ -343,6 +342,7 @@ words = {
         'irregular',
         'shapely',
         'fiddly',
+        'sculpted',
     ],
     
     wPos: [
