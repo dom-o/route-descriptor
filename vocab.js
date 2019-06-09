@@ -133,6 +133,7 @@ words = {
         'lurch',
         'match',
         'bump',
+'span',
     ],
 
     vStart: [
