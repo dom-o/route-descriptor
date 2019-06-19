@@ -291,6 +291,8 @@ words = {
         'blind',
         'improbable',
         'quick',
+        'subtle',
+        'aggressive',
     ],
 
     holdAdj: [
@@ -344,6 +346,7 @@ words = {
         'shapely',
         'fiddly',
         'sculpted',
+        'subtle',
     ],
     
     wPos: [
