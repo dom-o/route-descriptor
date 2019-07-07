@@ -104,6 +104,7 @@ words = {
         'disks',
         'incuts',
         'blocks',
+        'divots',
     ],
 
     nMove: [
