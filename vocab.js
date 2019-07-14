@@ -294,6 +294,7 @@ words = {
         'quick',
         'subtle',
         'aggressive',
+        'intense',
     ],
 
     holdAdj: [
