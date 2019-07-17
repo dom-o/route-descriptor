@@ -258,6 +258,7 @@ words = {
         'gnar',
         'honorable',
         'punchy',
+        'classic',
     ],
 
     moveAdj: [
