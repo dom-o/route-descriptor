@@ -298,6 +298,7 @@ words = {
         'intense',
         'ridiculous',
         'improbable',
+        'graceful',
     ],
 
     holdAdj: [
