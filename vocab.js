@@ -7,7 +7,7 @@ words = {
         'totally',
         'most',
         'all-encompassingly',
-'undoubtedly'
+        'undoubtedly'
     ],
 
     nClimb: [
@@ -135,7 +135,7 @@ words = {
         'lurch',
         'match',
         'bump',
-'span',
+        'span',
     ],
 
     vStart: [
@@ -355,6 +355,7 @@ words = {
         'sculpted',
         'subtle',
         'rough',
+        'mean'
     ],
     
     wPos: [
