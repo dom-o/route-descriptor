@@ -260,6 +260,7 @@ words = {
         'honorable',
         'punchy',
         'classic',
+        'menacing',
     ],
 
     moveAdj: [
