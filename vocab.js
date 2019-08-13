@@ -299,7 +299,6 @@ words = {
         'aggressive',
         'intense',
         'ridiculous',
-        'improbable',
         'graceful',
         'gorilla',
         'wicked',
