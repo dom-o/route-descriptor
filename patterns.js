@@ -16,7 +16,7 @@ patterns = {
 
         //Start descriptions
         startDesc: [
-            'vStart 0.2 wPos 0.6 [ on a 0.3 holdAdj nHold ] in nFeature',
+            'vStart 0.2 wPos ? 2 [ 0.6 [ on a 0.3 holdAdj nHold ] in nFeature ] [ on a 0.3 holdAdj nHold ]',
         ],
 
         //Middle descriptions
@@ -36,7 +36,7 @@ patterns = {
 
         //End descriptions.
         finishDesc: [
-            '? 2 [ ? 2 [ 0.4 holdAdj nHolds guard ] [ a 0.4 holdAdj nHold guards ] ] [ a 0.4 moveAdj nMove guards ] the ? 3 [ chains ] [ topout ] [ finish ]',
+            '? 2 [ ? 3 [ there\'s a 0.3 final 0.4 holdAdj nHold before ] [ 0.4 holdAdj nHolds guard ] [ a 0.4 holdAdj nHold guards ] ] [ ? 2 [ there\'s a 0.3 final 0.4 moveAdj nMove before ] [ a 0.4 moveAdj nMove guards ] ] the ? 3 [ chains ] [ topout ] [ finish ]',
             'vMove ? 3 [ to the chains ] [ for the 0.3 [ ? 2 [ climbAdj ] [ moveAdj ] ] top out ] [ through the 0.3 [ ? 2 [ climbAdj ] [ moveAdj ] ] finish ]',
             'vFinish ? 2 [ with a 0.2 moveAdj nMove ] [ on 0.2 holdAdj nHolds ] 0.4 [ and top out ]'
         ]
