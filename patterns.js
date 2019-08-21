@@ -1,7 +1,7 @@
 patterns = {
     big: {
         midE: ['moveDesc 0.3 [ ? 2 [ , conjunction ] [ ; ] moveDesc ] .'],
-        startNE: ['0.5 [ interjection . ]'],
+        startNE: ['0.5 [ interjection ? 2 [ . ! ] ]'],
         startE: ['startDesc 0.2 [ ? 2 [ , conjunction ] [ ; ] moveDesc ] .'],
         finishNE: ['0.4 [ 0.4 [ moveDesc ? 2 [ , conjunction ] [ ; ] ] finishDesc . ]', ]
     },
