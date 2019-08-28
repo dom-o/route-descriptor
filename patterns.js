@@ -9,7 +9,7 @@ patterns = {
     little: {
         //Beginning quantifiers
         interjection: [
-            'wIntensifier climbAdj',
+            'wIntensifier climbAdj 0.3 climbing',
             '0.2 wIntensifier climbAdj nClimb',
             'This nClimb is climbAdj',
         ],
