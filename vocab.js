@@ -262,6 +262,7 @@ words = {
         'punchy',
         'classic',
         'menacing',
+'intimidating',
     ],
 
     moveAdj: [
