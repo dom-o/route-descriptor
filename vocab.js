@@ -305,6 +305,7 @@ words = {
         'gorilla',
         'wicked',
         'brutal',
+        'fantastic',
     ],
 
     holdAdj: [
