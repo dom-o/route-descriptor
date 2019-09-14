@@ -362,7 +362,8 @@ words = {
         'sculpted',
         'subtle',
         'rough',
-        'mean'
+        'mean',
+'finicky',
     ],
     
     wPos: [
