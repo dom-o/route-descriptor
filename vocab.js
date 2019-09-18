@@ -7,7 +7,8 @@ words = {
         'totally',
         'most',
         'all-encompassingly',
-        'undoubtedly'
+        'undoubtedly',
+        'exceptionally,
     ],
 
     nClimb: [
