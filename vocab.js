@@ -364,7 +364,8 @@ words = {
         'subtle',
         'rough',
         'mean',
-'finicky',
+        'finicky',
+        'deep',
     ],
     
     wPos: [
