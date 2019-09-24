@@ -366,6 +366,7 @@ words = {
         'mean',
         'finicky',
         'deep',
+        'cavernous',
     ],
     
     wPos: [
