@@ -264,6 +264,7 @@ words = {
         'classic',
         'menacing',
 'intimidating',
+'old-school',
     ],
 
     moveAdj: [
