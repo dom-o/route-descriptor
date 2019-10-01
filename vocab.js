@@ -265,6 +265,7 @@ words = {
         'menacing',
 'intimidating',
 'old-school',
+'new-school',
     ],
 
     moveAdj: [
