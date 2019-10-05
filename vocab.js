@@ -52,6 +52,7 @@ words = {
         'corner',
         'overhang',
         'roof',
+        'vert section',
     ],
     
     vClimbFeature: [
@@ -263,9 +264,9 @@ words = {
         'punchy',
         'classic',
         'menacing',
-'intimidating',
-'old-school',
-'new-school',
+        'intimidating',
+        'old-school',
+        'new-school',
     ],
 
     moveAdj: [
