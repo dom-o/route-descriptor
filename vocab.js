@@ -370,6 +370,7 @@ words = {
         'finicky',
         'deep',
         'cavernous',
+        'beefy',
     ],
     
     wPos: [
