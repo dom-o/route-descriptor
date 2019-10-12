@@ -6,7 +6,6 @@ words = {
         'highly',
         'totally',
         'most',
-        'all-encompassingly',
         'undoubtedly',
         'exceptionally,
     ],
