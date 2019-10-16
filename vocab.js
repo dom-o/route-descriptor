@@ -137,6 +137,7 @@ words = {
         'match',
         'bump',
         'span',
+        
     ],
 
     vStart: [
@@ -310,6 +311,7 @@ words = {
         'brutal',
         'fantastic',
         'finicky',
+        'heinous',
     ],
 
     holdAdj: [
