@@ -8,6 +8,7 @@ words = {
         'most',
         'undoubtedly',
         'exceptionally,
+'incredibly',
     ],
 
     nClimb: [
