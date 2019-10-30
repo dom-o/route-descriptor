@@ -315,6 +315,7 @@ words = {
         'fantastic',
         'finicky',
         'heinous',
+
     ],
 
     holdAdj: [
@@ -375,6 +376,7 @@ words = {
         'deep',
         'cavernous',
         'beefy',
+'bulbous',
     ],
     
     wPos: [
