@@ -315,7 +315,7 @@ words = {
         'fantastic',
         'finicky',
         'heinous',
-
+'super hein',
     ],
 
     holdAdj: [
