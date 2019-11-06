@@ -184,7 +184,7 @@ words = {
         'stomp the gas',
         'mash',
         'go ape',
-        
+        'blow up',
     ],
 
     vMove: [
