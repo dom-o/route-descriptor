@@ -37,6 +37,7 @@ words = {
         'roof',
         'pit',
         'streak',
+'hueco',
     ],
     
     nClimbFeature: [
