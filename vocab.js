@@ -10,6 +10,7 @@ words = {
         'exceptionally,
         'incredibly',
         'distinctively',
+        'aggressively',
     ],
 
     nClimb: [
