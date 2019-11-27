@@ -186,6 +186,7 @@ words = {
         'mash',
         'go ape',
         'blow up',
+        'aggro',
     ],
 
     vMove: [
