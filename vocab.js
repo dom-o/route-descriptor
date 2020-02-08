@@ -63,6 +63,7 @@ words = {
         'climb',
         'move',
         'venture',
+        'go',
     ],
 
     nHold: [
