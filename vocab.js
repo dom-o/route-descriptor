@@ -209,6 +209,7 @@ words = {
         'tiptoe',
         'slide',
         'skate',
+        'grind',
     ],
 
     vHold: [
