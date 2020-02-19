@@ -382,6 +382,7 @@ words = {
         'cavernous',
         'beefy',
 'bulbous',
+        'dappled',
     ],
     
     wPos: [
