@@ -89,6 +89,7 @@ words = {
         'incut',
         'block',
         'divot'
+        'blob',
     ],
 
     nHolds: [
@@ -112,6 +113,7 @@ words = {
         'incuts',
         'blocks',
         'divots',
+        'blobs',
     ],
 
     nMove: [
