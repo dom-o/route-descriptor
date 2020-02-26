@@ -90,6 +90,7 @@ words = {
         'block',
         'divot'
         'blob',
+        'crystal',
     ],
 
     nHolds: [
