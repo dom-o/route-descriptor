@@ -115,6 +115,7 @@ words = {
         'blocks',
         'divots',
         'blobs',
+        'crystals',
     ],
 
     nMove: [
