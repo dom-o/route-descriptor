@@ -88,7 +88,7 @@ words = {
         'disk',
         'incut',
         'block',
-        'divot'
+        'divot',
         'blob',
         'crystal',
     ],
