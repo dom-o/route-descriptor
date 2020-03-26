@@ -7,7 +7,7 @@ words = {
         'totally',
         'most',
         'undoubtedly',
-        'exceptionally,
+        'exceptionally',
         'incredibly',
         'distinctively',
         'aggressively',
