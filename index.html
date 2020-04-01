@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>route-descriptor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="assets/styles-site-climb.css">
+
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="vocab.js"></script>
+  <script type="text/javascript" src="patterns.js"></script>
+</head>
+<body id="body-climb">
+  <div class="sitewide-top-bar">
+    <b><a href="about.html">route-descriptor</a></b> generates fake Moutain Project climb pages.<br><button id="descriptor-gen">generate</button>
+  </div>
+  <div id="header-container" class="container-fluid">
+    <div id="header">
+      <div class="float-xs-right">
+        <div id="user">
+          <a href="#"   class="btn btn-primary btn-sm sign-in">Sign In</a>
+        </div>
+        <div id="hamburger-container" class="hidden-lg-up">
+          <a class="hamburger" id="hamburger-trigger"  href="#"><img src="assets/hamburgerIconBlack.svg" class="closed" alt="Menu" title="Menu"></a>
+        </div>
+      </div>
+      <a href="#" class="app-logo">
+        <img src="assets/logoTitle_002.svg">
+      </a>
+
+      <div id="desktop-header-search" class="search hidden-sm-down"><div class="search-container text-xs-xenter mx-auto"><input type="text" placeholder="Search routes, forums, etc" class="form-control">  </div></div>
+      <div id="header-nav" class="hidden-md-down">
+        <div id="links">
+          <div class="tab">
+            <a href="#">Routes</a>
+          </div>
+          <div class="tab">
+            <a href="#">Gyms</a>
+          </div>
+          <div class="tab">
+            <a href="#">What's New</a>
+          </div>
+          <div class="tab">
+            <a href="#">Partners</a>
+          </div>
+          <div class="tab">
+            <a href="#">Forum</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr id="header-hr">
+
+  <div class="main-content-container ">
+    <div class="container-fluid">
+      <div id="route-page">
+        <div class="row pt-main-content">
+          <div class="col-md-9 float-md-right mb-1">
+            <div class="float-xs-right text-xs-right small mt-1 ml-2">
+              <div class="dropdown nowrap inline-block improve-page-general">
+                <a class="dropdown-toggle"   href="#"> Improve This Page <img class="arrow" src="assets/downArrowBlack_002.svg"></a>
+              </div>
+              <div class="mt-half">
+                <div class="dropdown nowrap">
+                  <a href="#" class="dropdown-toggle" >Add To Page <img class="arrow" src="assets/downArrowBlack_002.svg"></a>
+                </div>
+              </div>
+            </div>
+            <div class="mb-half small text-warm">
+              <a href="#">All Locations</a>  &gt;
+              <a href="#">California</a>
+
+              &gt; <a href="#">Los Angeles Basin</a>
+
+              &gt; <a href="#">Stoney Point</a>
+
+              &gt; <a href="#">Boulder 1</a>
+            </div>
+            <h1>
+              <span id="active-climb-1">One Pig</span>
+              <a class=" improve-page-link" href="#">        <img src="assets/edit_climb.svg" class="show-tooltip suggest-change-icon"  >
+            </a>
+          </h1>
+
+          <h2 class="inline-block mr-2"><span class="rateYDS">V1 <a href="#" class="font-body"><span class="small">YDS</span></a></span></h2>
+          <span id="route-star-avg">
+            <span>
+              <a class="show-tooltip" title="" href="#" >
+                <span id="starsWithAvgText-112370945">
+                  <span class="scoreStars ">
+                    <img src="assets/starBlue.svg" alt="">
+                    <img src="assets/starBlue.svg" alt="">
+                  </span>
+
+                  &nbsp;Avg: 2 from 3
+                  votes
+                </span>
+              </a>
+            </span>
+          </span>
+        </div>
+        <div class="col-md-3 left-nav float-md-left mb-2">
+          <div class="mp-sidebar">
+            <h3>Routes in Boulder 1</h3>
+            <div class="dropdown mb-1">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" >
+                <span id="route-type-label">Show All Routes</span><img class="ml-1 dropdown-arrow" src="assets/downArrowBlack.svg">
+              </button>
+            </div>
+            <div id="sort-buttons" class="mb-half">
+              <div class="btn-group btn-group-sm width100" data-toggle="buttons">
+                <label class="btn btn-secondary active" title="Left to Right" >
+                  <input name="sort-input" type="radio" autocomplete="off">L › R
+                </label>
+                <label class="btn btn-secondary" title="Right to Left" >
+                  <input name="sort-input" type="radio" autocomplete="off">R › L
+                </label>
+                <label class="btn btn-secondary" title="Alphabetical" >
+                  <input name="sort-input" type="radio" autocomplete="off">A › Z
+                </label>
+              </div>
+            </div>
+            <div class="max-height max-height-md-0 max-height-xs-150" style="overflow:auto; max-height:none;">
+              <table class="width100" id="left-nav-route-table">
+                <tbody>
+                  <tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-1" href="#">East Face Route</a>
+                      <span class="route-type Rock Boulder">
+                        <span class="rateYDS">5.1</span>      <span class="rateYDS">V-easy</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-2" href="#">South East Corner (The Corner)</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V2-</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-3" href="#">10-40</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V1</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-4" href="#">Three Pigs</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V0</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <strong id="active-climb-2" >One Pig</strong>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V1</span>
+                      </span>
+                    </td>
+                  </tr><tr>
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-5" href="#">No Pigs</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V2</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-6" href="#">Undercling</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V0+</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-7" href="#">Yabo Mantle</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V4</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-8" href="#">Leaping Lizards</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V3</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-9" href="#">Nose Eliminate</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V0</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-10" href="#">Nose, The</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V-easy</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-11" href="#">Dihedral Left</a>
+                      <span class="route-type Rock Boulder">
+                        <span class="rateYDS">5.9</span>      <span class="rateYDS">V0</span>
+                      </span>
+                    </td>
+                  </tr><tr>
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-12" href="#">Dihedral Right</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V0+</span>
+                      </span>
+                    </td>
+                  </tr><tr>
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-13" href="#">West Arete</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V-easy</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-14" href="#">Nylon Boy</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V1</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-15" href="#">Boot Flake</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V2</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-16" href="#">Boot Flake Direct Dyno</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V2+</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-17" href="#">Endo Boy</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V3</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlueHalf.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-18" href="#">Short Story</a>
+                      <span class="route-type Rock Boulder">
+                        <span class="rateYDS">5.7</span> <span class="rateYDS">V-easy</span>  PG13
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-19" href="#">Vivarin</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V-easy</span>
+                      </span>
+                    </td>
+                  </tr><tr   >
+                    <td class="route-score">
+                      <span class="scoreStars ">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                        <img src="assets/starBlue.svg" alt="">
+                      </span>
+                    </td>
+                    <td>
+                      <a id="random-climb-20" href="#">Boulder 1 Traverse</a>
+                      <span class="route-type Boulder">
+                        <span class="rateYDS">V3</span>
+                      </span>
+                    </td>
+                  </tr></tbody></table>
+
+                  <div class="small text-warm mt-1">
+                    Order Wrong?
+                    <a class=" improve-page-link" href="#">        Sort Routes
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 main-content float-md-right">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="small mb-1">
+                    <table class="description-details">
+                      <tbody><tr>
+                        <td>Type:</td>
+                        <td>
+                          Boulder
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>FA:</td>
+                        <td>
+                          unknown
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="pr-half text-nowrap">Page Views:</td>
+                        <td>
+                          752 total ·
+                          19/month
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="pr-half text-nowrap">Shared By:</td>
+                        <td>
+                          <a href="#">E Balmer</a>
+                          on Dec 5, 2016
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Admins:</td>
+                        <td>
+                          <a href="#">John Triss</a>,    <a href="#">fc762</a>,    <a href="#">Q. Rawls</a>,    <a href="#">William Burchester</a>,    <a href="#">Ebenezer gidarsky</a>,    <a href="#">Jane Johnson</a>,    <a href="#">Gina Bennett</a>            </td>
+                        </tr>
+                      </tbody></table>
+                    </div>
+                    <div id="you-and-route" class="bg-gray-background py-1 pl-1 pr-3 mt-1 inline-block">
+                      <div class="title-with-border-bottom mb-1">
+                        <h2 class="inline-block mr-1 mb-half">You &amp; This Route</h2>
+                        <a href="#">3 Opinions</a>
+                      </div>
+                      <div class="mt-half mb-half">
+                        <h4 class="inline-block mr-half">Your To-Do List:</h4>
+                        <a href="#" id="todoToggle"  class=" show-tooltip" >Add To-Do</a> · <a  href="#">View List</a>
+                      </div>
+                      <div class="mb-half position-relative">
+                        <h4 class="inline-block mr-half">Your Star Rating:</h4>
+                        <span id="your-route-stars" >
+                          <span id="scoreThis_112370945">
+                            <span class="score">
+                              <span class="scoreStars setScoreStars">
+                                <img class="  first " src="assets/bombEmpty.svg"  >
+                                <img   src="assets/starYellowEmpty.svg"  >
+                                <img  src="assets/starYellowEmpty.svg"  >
+                                <img   src="assets/starYellowEmpty.svg"  >
+                                <img  src="assets/starYellowEmpty.svg"  >
+                              </span>
+                              &nbsp;
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                      <div class="mb-half">
+                        <h4 class="inline-block mr-half">Your Difficulty Rating:</h4>
+                        <span id="your-route-score">-none-</span> <a href="#" >Change</a>
+                      </div>
+                      <div>
+                        <h4 class="inline-block mr-half">Your Ticks:</h4><a href="#" >Add New Tick</a>
+                        <ul id="your-ticks" class="small max-height max-height-md-120 max-height-xs-120" style="max-height: none;">
+
+                          -none-
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="mt-2 max-height max-height-md-800 max-height-xs-600" style="max-height: none;">
+                      <h2 class="mt-2">
+                        Description
+                        <a class=" improve-page-link" href="#" >        <img src="assets/edit_climb.svg" class="show-tooltip suggest-change-icon"  >
+                      </a>
+                    </h2>
+                    <div id="descriptor-space"class="fr-view">Start up three pigs but only use the first of the pin scars with a big move up to the top.</div>
+                  </div>
+                  <div class="mt-2 max-height max-height-md-800 max-height-xs-600" style="max-height: none;">
+                    <h2 class="mt-2">
+                      Protection
+                      <a class=" improve-page-link" href="#" >        <img src="assets/edit_climb.svg" class="show-tooltip suggest-change-icon"  >
+                    </a>
+                  </h2>
+                  <div class="fr-view">pad</div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-3">
+              <h2>
+                <span class="font-body float-xs-right position-relative contribute-photos">
+                  <small>
+                    <div class="dropdown nowrap">
+                      <a href="#" class="dropdown-toggle" >Add New Photo <img class="arrow" src="assets/downArrowBlack_002.svg"></a>
+                    </div>
+                  </small>
+                </span>
+                Photos
+              </h2>
+              <div class="text-muted">- No Photos -</div>
+            </div>
+            <div class="mt-3">
+              <div class="comments" id="comments-Climb-Route-112370945">
+                <div class="comments-header has-sort">
+                  <h2 class="comment-count">1 Comment</h2>
+
+                  <div class="dropdown sort float-xs-right">
+                    <a class="dropdown-toggle" id="sort-dropdown" >
+                      <strong>Sort by:</strong> <span class="current-sort">Oldest</span>
+                      <img class="dropdown-arrow" src="assets/downArrowBlack.svg">
+                    </a>
+                  </div>
+                </div>
+                <div class="comments-body">
+                  <div class="comment-box">
+                    <div class="float-xs-left">
+                      <div class="user-img-avatar lazy" style="display: inline-block; background-image: url(&quot;assets/missing2.svg&quot;);">
+                  </div>
+                </div>
+                <div class="comment-form-container">
+                  <form class="add-comment-form wide">
+                    <textarea class="comment " id="comment-textarea" name="comment" maxlength="6000" placeholder="Write a comment"></textarea>
+                  </form>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="comment-list">
+                <table class="main-comment width100" id="Comment-113730627">
+                  <tbody><tr>
+                    <td class="pl-1 py-1 user hidden-xs-down">
+                      <div class="bio">
+                        <a href="#">Leon Heemer</a>
+
+                        <br>    <span class="text-warm small hometown">
+                          Hialeah, FL
+                        </span>
+
+                        <div class="text-warm small ">
+                          <span class="scoreStars ">
+                            <img src="assets/starBlue.svg" alt="">
+                            <img src="assets/starBlue.svg" alt="">
+                            <img src="assets/starBlue.svg" alt="">
+                          </span>
+
+                          &nbsp;
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-1">
+                      <div class="hidden-sm-up mb-half">
+                        <div class="bio">
+                          <a href="#">Leon Heemer</a>
+
+                          &nbsp;     <span class="text-warm small hometown">
+                            Hialeah, FL
+                          </span>
+
+                          <div class="text-warm small float-xs-right">
+                            <span class="scoreStars ">
+                              <img src="assets/starBlue.svg" alt="">
+                              <img src="assets/starBlue.svg" alt="">
+                              <img src="assets/starBlue.svg" alt="">
+                            </span>
+
+                            &nbsp;
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment-body">
+                        <span id="113730627-full">This is actually a really fun eliminate and worth doing!   </span>
+                        <span class="comment-time">
+                          Oct 20, 2017
+                        </span>
+                      </div>
+                      <div class="mt-1 like-flag-container">
+                        <div class="like-flag-actions text-xs-right">
+                          <div class="like text-muted float-xs-left">
+                            <a href="#" class="like-trigger"  >
+                              <img class="toggle-src  show-tooltip" title="This comment has helpful beta"  src="assets/betaCheck.svg">
+                              <span class="small  text-muted  ">
+                                Beta: <span class="num-likes">0</span>
+                              </span>
+                            </a>
+                          </div>
+                          <div class="flag like-flag-action small text-muted">
+                            <a href="#" class="flag-trigger ">
+                              Flag
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-3 climb-more float-md-left">
+        <h4 class="text-truncate mt-2">
+          More About <span id="active-climb-3">One Pig</span>
+        </h4>
+        <a href="#">Printer-Friendly</a><br>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div id="footer-container">
+  <div class="footer-container-spacer"></div>
+  <div id="footer-top" class="pt-3 pb-2">
+    <div class="container-fluid">
+      <div class="desc-app-buttons">
+        <div class="ap-desc mb-2">
+          <h3>A life outdoors is a life well lived.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer-bottom" class="pt-1 pb-1"></div>
+</div>
+</body>
+</html>
