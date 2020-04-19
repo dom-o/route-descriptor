@@ -358,6 +358,7 @@ words = {
     'quarter-pad',
     'two-finger',
     'three-finger',
+    'mono',
     'enormous',
     'hellish',
     'sweet',
