@@ -358,6 +358,7 @@ words = {
     'quarter-pad',
     'two-finger',
     'three-finger',
+    'mono',
     'enormous',
     'hellish',
     'sweet',
@@ -400,6 +401,7 @@ words = {
   ],
 
   climbName: [
+    "Slick Oiler's Revenge",
     'Mungis World',
     'Kill Butt 2',
     "Huffy's Revenge",
