@@ -324,6 +324,7 @@ words = {
     'finicky',
     'heinous',
     'super hein',
+    'tough',
   ],
 
   holdAdj: [
