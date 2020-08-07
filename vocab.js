@@ -481,5 +481,6 @@ words = {
     'Foghorn Egghorn',
     'Egghorn Leghorn',
     'Yung Trepanation',
+    'Jumbonium',
   ],
 }
